@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40px"
+    android:orientation="vertical"
+    tools:context=".PuzzleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Level"/>
+    <Button
+        android:id="@+id/easy"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Easy"/>
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="Hard" />
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.puzzle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/SecondTheme">
+        <activity android:name=".HardActivity"></activity>
+        <activity android:name=".EasyActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/SecondTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SecondTheme" />
+        <activity android:name=".BugActivity" />
+        <activity android:name=".PuzzleActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".AgroActivity" />
+        <activity android:name=".BuatanActivity" />
+        <activity android:name=".AlamActivity" />
+        <activity android:name=".WisatasejarahActivity" />
+        <activity android:name=".BudayaActivity" />
+        <activity android:name=".ReligiActivity" />
+        <activity android:name=".SejarahActivity" />
+        <activity android:name=".RumahadatActivity" />
+        <activity android:name=".PakaianActivity" />
+        <activity android:name=".MakananActivity" />
+    </application>
+
+</manifest>
